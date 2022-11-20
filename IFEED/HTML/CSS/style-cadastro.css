@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(239, 241, 129); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+     min-height: 100vh;   
+}
+
+.w50 {
+    width: 80%;
+    float: left;
+    padding-right: 15px;
+}
+
+.box {
+    display: flex;
+    width: 1030px;
+}
+
+.form-box {
+    padding: 30px;
+    width: 50%;
+    border-radius: 0 20px 20x 0;
+}
+
+.form-box h2 {
+    font-size:  30px;
+}
+
+.form-box p {
+    font-weight: bold;
+    color: #3d3d3d;
+}
+
+.form-box p a {
+    color: #ffa600;
+    text-decoration: none;
+}
+
+.form-box form {
+    margin: 20px 0;
+}
+
+form .input-group {
+    margin-bottom: 20px;
+}
+
+form .input-group label {
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .input-group input {
+    width: 300px;
+    height: 37px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    font: #616161;
+    transition: all 0.4s ease;
+}
+
+form .input-group input:focus {
+    border-color: #ffa600;
+}
+
+form .input-group button {
+    width: 300px;
+    height: 47px;
+    background: #ffa600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:750px) {
+    .img-box{
+        display: none;
+    }
+
+    .box {
+        width: 700;
+    }
+
+    .form-box {
+        width: 100px;
+    }
+}

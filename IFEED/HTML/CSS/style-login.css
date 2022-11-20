@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(239, 241, 129);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #ffffff50;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form .label-float {
+    margin-bottom: 20px;
+}
+
+
+
+form .label-float button {
+    width: 300px;
+    height: 40px;
+    background: #ffa600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .justify-center button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px; 
+    cursor: pointer;
+    font-size: 16px; 
+    background: #ffa600; 
+    color: white;
+}
+
+form .input-group {
+    margin-bottom: 20px;
+}
+form .label-float label {
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .label-float input {
+    width: 300px;
+    height: 37px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    font: #616161;
+    transition: all 0.4s ease;
+}
+
+form .label-float input:focus {
+    border-color: #ffa600;
+}
+
+@media (max-width:750px) {
+    
+
+    .container{
+        width: 700;
+    }
+
+    .card {
+        width: 350px;
+    }
+}
